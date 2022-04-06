@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .col-25, .col-75, input[type=reset] {
+    width: 100%;
+    margin:auto;
+  }
+}
+@media screen and (min-width: 992px){
+    .col-md-6 {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+ }
+
+ @media screen and (max-width: 990px){
+.why-choose {
+    width: 90% !important;
+    margin-top: 0;
+    margin-bottom: 4% !important;
+}
+ }
+/* about page */
+#whychoose-background{
+  background-color: #00baf2;
+  padding: 20px 0;
+}
+
+.homepage .heading{
+  color: #000;
+  text-shadow: 2px 2px 2px #e5e9e9;
+  font-weight: 700;
+  font-size: 33px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+  letter-spacing: 1px;
+}
+
+.section .row{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.section .row .col-md-6{
+  padding-right: 20px;
+  text-align: justify;
+}
+.section .why-choose{
+    padding-right: 20px;
+    text-align: justify;
+    box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.4), 0 6px 20px 0 rgb(0, 0, 0, 0.35) ; 
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #0083aa;
+}
+.section .why-choose h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+.section .why-choose p{
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+.section .why-choose .we-give{
+ text-align: center;
+}
+.section .choose-back{
+text-align: center;
+font-size: 21px;
+font-weight: 600;
+margin-top: 5%;
+text-transform: capitalize;
+letter-spacing: 1px;
+}

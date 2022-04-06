@@ -1,0 +1,61 @@
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, .col-md-6, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .col-25, .col-75,.col-md-6, input[type=reset] {
+      width: 100%;
+      margin:auto;
+    }
+  }
+  /* @media screen and (min-width: 992px){
+.col-md-6 {
+    width: 47%;
+}
+} */
+  /* about page */
+  .max-header{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+} 
+ 
+  .section .row{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .maximum-part{
+    margin-top: 2%;
+  }
+.max-return{
+    padding-bottom: 4%;
+    text-align: justify;
+    line-height: 23px;
+    color: #000;
+    font-weight: 500;
+}
+.section .maximum-part .max-return a{
+    font-weight: 600;
+}
+.section .border-web {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 4%;
+}
+.section .border-web a{
+    font-weight: 600;
+}
